@@ -12,6 +12,9 @@ public class TreinandorWallyson extends Treinador {
 	private void gritoDeGuerra() {
 		System.out.println("Eh eh Eh, to aqui para vencer!!!");
 	}
+        private void gritoGoleada(){
+            System.out.println("Gente, pelo amor de deus ne ?");
+        }
 
 	@Override
 	protected void atitudePerdendo() {
@@ -27,4 +30,9 @@ public class TreinandorWallyson extends Treinador {
 	protected void atitudeVencendo() {
 		gritoDosVencedores();
 	}
+
+    @Override
+    protected void atitudeGoleada() {
+        gritoGoleada();
+    }
 }

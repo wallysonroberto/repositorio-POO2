@@ -30,5 +30,10 @@ public class Time {
 	public boolean isEmpatando() {
 		return getStatus().equals(STATUS_JOGO.EMPATANDO);
 	}
+        
+        public boolean isGoleada(){
+            
+            return getStatus().equals(STATUS_JOGO.GOLEADA);
+        }
 
 }

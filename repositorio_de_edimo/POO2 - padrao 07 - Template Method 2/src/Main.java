@@ -4,7 +4,7 @@ public class Main {
 		Treinador igor = new TreinadorIgor();
 		Treinador wallyson = new TreinandorWallyson();
 		igor.setTime(new Time(STATUS_JOGO.EMPATANDO));
-		wallyson.setTime(new Time(STATUS_JOGO.EMPATANDO));
+		wallyson.setTime(new Time(STATUS_JOGO.GOLEADA));
 
 		igor.instruirTime();
 
